@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/UMC/static/css/main.d9d0e9bd.css",
+    "main.js": "/UMC/static/js/main.c6ffd06b.js",
+    "static/js/453.f0e33eac.chunk.js": "/UMC/static/js/453.f0e33eac.chunk.js",
+    "index.html": "/UMC/index.html",
+    "main.d9d0e9bd.css.map": "/UMC/static/css/main.d9d0e9bd.css.map",
+    "main.c6ffd06b.js.map": "/UMC/static/js/main.c6ffd06b.js.map",
+    "453.f0e33eac.chunk.js.map": "/UMC/static/js/453.f0e33eac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9d0e9bd.css",
+    "static/js/main.c6ffd06b.js"
+  ]
+}
