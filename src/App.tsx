@@ -43,19 +43,35 @@ const App: React.FC = () => {
   return (
     <div className='App'>
       <h1>React Modal App</h1>
-      <button onClick={openModal}>Открыть модальное окно</button>
+      <div className='content'>
+        Greetings, my dear friend! <br /> I'm just a dumb message to fullfil an
+        empty space. Here is my sad story.{" "}
+        <strong>Click the button below</strong> please, to give sense to my
+        life.
+        <br />
+        <button onClick={openModal}>Open modal window</button>
+      </div>
+
       {isModalOpen && (
         <Modal onClose={closeModal} className='modal-open'>
-          <p>Это основное модальное окно!</p>
-          <button onClick={openNestedModal}>
-            Открыть вложенное модальное окно
-          </button>
+          <p>I've asked one AI how it sees Armar Solutions. Here is it.</p>
+          <img
+            src='/Armar_solutions_png.png'
+            alt='Armar Solutions AI generated pic'
+            className='modal-image'
+          />
+          <button onClick={openNestedModal}>Open another modal window</button>
         </Modal>
       )}
       {isNestedModalOpen && (
         <Modal onClose={closeNestedModal} className='modal-nested'>
-          <p>Это вложенное модальное окно!</p>
-          <button onClick={closeNestedModal}>Закрыть</button>
+          <p>Then I asked it to redraw.</p>
+          <img
+            src='/Armar_solutions_png_2.png'
+            alt='Another Armar Solutions AI generated pic'
+            className='modal-image'
+          />
+          <button onClick={closeNestedModal}>Close</button>
         </Modal>
       )}
     </div>

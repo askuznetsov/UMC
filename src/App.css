@@ -13,12 +13,17 @@
 
 .modal-content {
   background-color: #fefefe;
-  margin: 15% auto;
+  margin: 4.6% 15%;
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
   max-width: 600px;
   border-radius: 8px;
+}
+
+img.modal-image {
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
 }
 
 .close {
@@ -58,5 +63,20 @@ button:hover {
 }
 
 .modal-nested .modal-content {
-  margin: 5% auto;
+  margin: 4.6% 52%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.content {
+  border: 1px solid black;
+  width: 50%;
+  border-radius: 3%;
+  padding: 5%;
+}
+
+div#root {
+  padding: 0 20%;
 }
