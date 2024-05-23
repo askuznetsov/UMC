@@ -63,7 +63,8 @@ button:hover {
 }
 
 .modal-nested .modal-content {
-  margin: 4.6% 52%;
+  position: relative;
+  right: -40%;
 }
 
 h1 {
